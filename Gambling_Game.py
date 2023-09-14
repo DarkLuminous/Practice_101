@@ -43,7 +43,11 @@ def Play_Gamble_Again():
     Play_Gamble()
                             
   elif int(Again) == 2:
-        exit()
+      print("Thank you For Playing")
+      sleep(1)
+      os.system('cls')
+      print("The_Gamble by Roger Bao Jr.")
+      exit()
         
 def Play_Gamble():
     global Money
