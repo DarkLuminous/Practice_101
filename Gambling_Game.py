@@ -156,7 +156,7 @@ def Final_Phase():
  
  if int(GuessedNumber) == int(NumberToGuess):
   os.system('cls')
-  Money = (int(betMoney) * 2 + int(Money))
+  Money = (int(betMoney) * 2)
   print("YOU WON!")
   print("Your Money Increase by:",Money,"$")
   
